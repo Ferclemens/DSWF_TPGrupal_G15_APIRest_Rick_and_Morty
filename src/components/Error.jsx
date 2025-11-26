@@ -8,7 +8,7 @@ function Error() {
       <h5 className={styles.textDescription}>
         No se encuentra la página - URL inválida
       </h5>
-      <img className={styles.emogi} src="src/assets/404_rick.png" />
+      <img className={styles.emogi} src="src/assets/404_rick.webp" />
       <Link className={styles.link} to="/">
         Volver
       </Link>

@@ -6,6 +6,7 @@ import HeaderRyM from "./HeaderRyM";
 import Paginado from "./Paginado";
 import styles from "./Personajes.module.css";
 import Card404 from "./Card404";
+import Footer from "./Footer";
 
 const urlAPI = "https://rickandmortyapi.com/api/character";
 const urlBusqueda = `https://rickandmortyapi.com/api/character/?name=`;
@@ -81,6 +82,7 @@ function personajes() {
         setPagina={setPagina}
         data={response}
       />
+      <Footer />
     </div>
   );
 }
